@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "rol": "Fraternidad",
+        "name":"David Isarra",
+        "parenId": 2,
+        "children": []
+    },
+    {
+        "id": 2,
+        "rol": "Presidente",
+        "name":"Luis Ganim",
+        "parenId": 1,
+        "children": [
+            {
+                "id": 1,
+                "rol": "Regional Norte",
+                "name":"Elena Molizia",
+                "parenId": 1,
+                "children": [
+                    {
+                        "id": 1,
+                        "rol": "Tucuman",
+                        "name":"Silvina de Sfei",
+                        "parenId": 1,
+                        "children":[
+                            {
+                                "id": 1,
+                                "rol": "Puente",
+                                "name":"Silvina de Sfei",
+                                "parenId": 1,
+                                "children":[]
+                            },
+                            {
+                                "id": 2,
+                                "rol": "Alfa",
+                                "name":"Rafael Rotger",
+                                "parenId": 1,
+                                "children":[]
+                            },{
+                                "id": 3,
+                                "rol": "Gora",
+                                "name":"Mirta de Costilla",
+                                "parenId": 1,
+                                "children":[]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "rol": "Santiago del Estero",
+                        "name":"Guia de Santiago",
+                        "parenId": 1,
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "rol": "Regional Sur",
+                "name":"Nombre Guia Sur",
+                "parenId": 1,
+                "children": []
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "rol": "Consejeros",
+        "name":"Nombre1, Nombre2, Nombre3",
+        "parenId": 2,
+        "children": []
+    }
+]
