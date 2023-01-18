@@ -4,4 +4,4 @@ export interface TreeNode {
     name: string,
     parentId: number,
     children: TreeNode[]
-    }
+}

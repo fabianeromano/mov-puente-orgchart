@@ -1,6 +1,7 @@
-import { TreeNode } from "@/lib/model";
 import axios from "axios";
-import Papa from "papaparse"
+import Papa from "papaparse";
+
+import { TreeNode } from "@/lib/model";
 
 export default{
     list: async (): Promise<TreeNode[]> => {
