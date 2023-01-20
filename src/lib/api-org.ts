@@ -1,10 +1,11 @@
-import { TreeNode } from "@/lib/model";
 import axios from "axios";
-import Papa from "papaparse"
+import Papa from "papaparse";
+
+import { TreeNode } from "@/lib/model";
 
 export default{
     list: async (): Promise<TreeNode[]> => {
-    return axios.get("https://docs.google.com/spreadsheets/d/e/2PACX-1vQOlpVb0YTz0GV3LHdiAg49T1Pz4umi5tGb64sJ0aNH8_If16mohnOAUzOmN55tbvXM6xBo1TvcbPqH/pub?output=csv",
+    return axios.get(process.env.NEXT_PUBLIC_CSV_FILE || "",
     {
         responseType: "blob"
     }
